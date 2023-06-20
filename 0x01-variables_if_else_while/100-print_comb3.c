@@ -8,14 +8,15 @@
   */
 int main(void)
 {
-	int d, p;
+	int d;
+	int p;
 
 	for (d = 0; p <= 9; d++)
 	{
-		for (p = d + 1; p <= 9; p++)
+		for (p = d + 1; p <= 10; p++)
 		{
-			putchar((d % 10) + 0);
-			putchar((p % 10) + 0);
+			putchar((d % 10) + '0');
+			putchar((p % 10) + '0');
 
 			if (d == 8 && p == 9)
 				continue;
