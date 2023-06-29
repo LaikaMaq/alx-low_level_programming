@@ -9,6 +9,8 @@
   *
   *@src: the string to be attached to dest
   *
+  *@n: the maximum number of bytes
+  *
   *Return: a pointer to the resulting string dest
   */
 
